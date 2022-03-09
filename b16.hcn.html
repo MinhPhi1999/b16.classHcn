@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    class hcn {
+    constructor(dai,rong) {
+        this.dai=dai;
+        this.rong=rong;
+    }
+    setDai(dai){
+        this.dai=dai;
+    }
+    setRong(rong){
+        this.rong=rong;
+    }
+    getDienTich(){
+        return this.dai*this.rong;
+    }
+    getChuVi(){
+        return 2*(this.dai+this.rong);
+    }
+    }
+    let hcn1= new hcn(5,2)
+    // document.write(hcn1.getChuVi());
+    // document.write('<br>');
+    // document.write(hcn1.getDienTich());
+    alert(hcn1.getDienTich()+' , '+hcn1.getChuVi())
+</script>
